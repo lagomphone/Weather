@@ -5,8 +5,8 @@ def lifecycleVersion = '2.2.0'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "cz.martykan.forecastie"
-        minSdkVersion 15
+        applicationId "com.lagomphone.weather"
+        minSdkVersion 26
         targetSdkVersion 29
         versionCode 74
         versionName "1.22.1"

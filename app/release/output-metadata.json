@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.lagomphone.weather",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 74,
+      "versionName": "1.22.1",
+      "enabled": true,
+      "outputFile": "app-release.apk"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 <!-- Do not change the order of any strings in here, without discussing first on the "Issues" page -->
 <!-- Do not delete any blank lines -->
 <resources>
-    <string name="app_name">Forecastie</string>
+    <string name="app_name">Weather</string>
     <!-- Main activity titles -->
     <string name="action_search">Szukaj</string>
     <string name="action_refresh">Odśwież</string>
@@ -38,11 +38,11 @@
     <string name="clouds">Zachmurzenie</string>
 
     <!-- About dialogue -->
-    <string name="about_unknown">Nie udało się znaleźć nazwy wersji</string>
-    <string name="about_description">Lekka aplikacja pogodowa, udostępniana na wolnej i otwartej licencji GPLv3.</string>
-    <string name="about_developers">Stworzona przez <a href='mailto:t.martykan@gmail.com'>Tomáša Martykána</a> i <a href='https://github.com/martykan/forecastie/graphs/contributors'>innych</a>, z pomocą od <a href='https://github.com/martykan/forecastie/issues?utf8=✓;q=is%3Aissue'>wielu innych</a>.</string>
-    <string name="about_src">Kod dostępny jest na platformie <a href='https://github.com/martykan/forecastie'>Github</a>.</string>
-    <string name="about_issues">Błędy i ulepszenia mogą być wysyłane na naszej <a href='https://github.com/martykan/forecastie/issues'>stronie problemów na Github</a>.</string>
-    <string name="about_data">Dane dostarczone przez <a href='https://openweathermap.org/'>OpenWeatherMap</a>, pod licencją <a href='http://creativecommons.org/licenses/by-sa/2.0/'>Creative Commons CC-BY-SA 2.0</a>.</string>
-    <string name="about_icons">Ikony wzięte z <a href='https://erikflowers.github.io/weather-icons/'>Weather Icons</a>, przez <a href='http://www.twitter.com/artill'>Lukasa Bischoffa</a> i <a href='http://www.twitter.com/Erik_UX'>Erika Flowersa</a>, pod licencją <a href='http://scripts.sil.org/OFL'>SIL OFL 1.1</a>.</string>
+    <string name="about_unknown">Could not get version name</string>
+    <string name="about_description">A lightweight, Free Software weather app for Lagomphone, released under the GPL3 licence. Based on the original Forecastie app.</string>
+    <string name="about_developers">Originally developed by <a href='mailto:t.martykan@gmail.com'>Tomáš Martykán</a> and <a href='https://github.com/martykan/forecastie/graphs/contributors'>others</a>. Forked and modified for Lagomphone.</string>
+    <string name="about_src">Code for Weather is available at <a href='https://github.com/lagomphone/Weather'>Github</a>. Original Forecastie code is available at <a href='https://github.com/martykan/forecastie'>Github</a>.</string>
+    <string name="about_issues">""</string>
+    <string name="about_data">Data is from OpenWeatherMap.</string>
+    <string name="about_icons">Icons are <a href='https://erikflowers.github.io/weather-icons/'>Weather Icons</a>, by <a href='http://www.twitter.com/artill'>Lukas Bischoff</a> and <a href='http://www.twitter.com/Erik_UX'>Erik Flowers</a>, under the <a href='http://scripts.sil.org/OFL'>SIL OFL 1.1</a> licence.</string>
 </resources>

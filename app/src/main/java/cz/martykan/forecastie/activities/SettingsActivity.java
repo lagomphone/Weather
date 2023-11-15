@@ -81,10 +81,8 @@ public class SettingsActivity extends PreferenceActivity
         setListPreferenceSummary("lengthUnit");
         setListPreferenceSummary("speedUnit");
         setListPreferenceSummary("pressureUnit");
-        setListPreferenceSummary("refreshInterval");
         setListPreferenceSummary("windDirectionFormat");
         setListPreferenceSummary("theme");
-        setListPreferenceSummary(getString(R.string.settings_notification_type_key));
     }
 
     @Override
@@ -104,10 +102,6 @@ public class SettingsActivity extends PreferenceActivity
             case "windDirectionFormat":
                 setListPreferenceSummary(key);
                 break;
-            case "refreshInterval":
-                setListPreferenceSummary(key);
-                AlarmReceiver.setRecurringAlarm(this);
-                break;
             case "dateFormat":
                 setCustomDateEnabled();
                 setListPreferenceSummary(key);
@@ -122,24 +116,7 @@ public class SettingsActivity extends PreferenceActivity
                 overridePendingTransition(0, 0);
                 startActivity(getIntent());
                 break;
-            case "updateLocationAutomatically":
-                if (sharedPreferences.getBoolean(key, false)) {
-                    requestReadLocationPermission();
-                }
-                break;
-            case "apiKey":
-                checkKey(key);
-                break;
             default:
-                if (key.equalsIgnoreCase(getString(R.string.settings_enable_notification_key))) {
-                    if (sharedPreferences.getBoolean(key, false)) {
-                        requestForegroundServicePermission();
-                    } else {
-                        hideNotification();
-                    }
-                } else if (key.equalsIgnoreCase(getString(R.string.settings_notification_type_key))) {
-                    setListPreferenceSummary(key);
-                }
                 break;
         }
     }

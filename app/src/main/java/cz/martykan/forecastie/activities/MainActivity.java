@@ -553,10 +553,6 @@ public class MainActivity extends BaseActivity implements LocationListener {
             searchCities();
             return true;
         }
-        if (id == R.id.action_location) {
-            getCityByLocation();
-            return true;
-        }
         if (id == R.id.action_settings) {
             Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
             startActivity(intent);
